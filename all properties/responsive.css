@@ -1,0 +1,348 @@
+@media(min-width:1200px) and (max-width:1399px){
+    /* start of hero section */
+    .logo {
+        width: 40%;
+    }
+    .togg {
+        width: 60%;
+    }
+    /* end of hero section */
+}
+
+
+
+
+@media(min-width:992px) and (max-width:1199px){
+    /* start of hero section */
+    .logo {
+        width: 40%;
+        margin-top: 30px;
+    }
+    .togg {
+        width: 60%;
+        margin-top: 30px;
+    }
+    /* end of hero section */
+
+
+    /* start of social icon section  */
+    .social-icons{
+        width: 70%;
+    }
+    .social-icons div{
+        padding-bottom: 5px;
+    }
+    .social-icons img{
+        height: 15px;
+        padding-right: 2px;
+    }
+    .social-icons a{
+        font-size: 15px;
+   }
+    /* end of social icon section  */
+}
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
+    /* start of hero section */
+    .container {
+        height: 80px;
+    }
+    .logo {
+        width: 40%;
+        margin-top: 18px;
+    }
+    .logo .star{
+        font-size: 20px;
+        color: #E08524;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    .togg {
+        width: 60%;
+        margin-top: 18px;
+    }
+    .nav a {
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #E08524;
+        font-size: 15px;
+    }
+    /* end of hero section */
+
+
+    /* start of main logo section */
+    .main-logo-image img{
+        height: 50px;
+     }
+    /* start of main logo section */
+
+
+    /* start of social icon section  */
+    .social-icons{
+        width: 70%;
+    }
+    .social-icons div{
+        padding-bottom: 5px;
+    }
+    .social-icons img{
+        height: 13px;
+        padding-right: 2px;
+    }
+    .social-icons a{
+        font-size: 13px;
+   }
+    /* end of social icon section  */
+}
+
+
+
+
+@media(min-width:576px) and (max-width:767px){
+    /* start of hero section */
+    .container {
+        height: 80px;
+    }
+    .logo {
+        width: 60%;
+        margin-top: 30px;
+    }
+    .logo .star{
+        font-size: 18px;
+        color: #E08524;
+    }
+    .logo span{
+        font-size: 18px;
+    }
+    .togg {
+        margin-right: 0%;
+        width: 7%;
+        position: relative;
+        margin-top: 30px;
+        /* background-color: red; */
+    }
+    .togg-menu {
+        display: block;
+        float: right;
+        /* display: none; */
+    }
+    .menu-item {
+        float: right;
+    }
+    .nav {
+        /* display: inline-block; */
+        display: none;
+        margin-left: -110px;
+        margin-top: 10px;
+        position: absolute;
+        width: 150px;
+    }
+    .nav a {
+        display: flex;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 0px;
+        padding-left: 30px;
+        background-color: #E08524;
+        color: black;
+        border: 1px solid black;
+    }
+    .togg:hover .nav {
+        display: block;
+    }
+    /* end of hero section */
+
+
+    /* start of main logo section */
+    .main-logo-image img{
+        height: 40px;
+     }
+    /* start of main logo section */
+
+     /* start of social icon section  */
+     .social-icons{
+        width: 70%;
+    }
+    .social-icons div{
+        padding-bottom: 5px;
+    }
+    .social-icons img{
+        height: 13px;
+        padding-right: 2px;
+    }
+    .social-icons a{
+        font-size: 13px;
+   }
+    /* end of social icon section  */
+}
+
+
+
+
+
+@media(min-width:321px) and (max-width:575px){
+    /* start of hero section */
+    .container{
+        height: 80px;
+    }
+    .logo {
+        width: 60%;
+        margin-top: 25px;
+    }
+    .logo span{
+        font-size: 14px;
+    }
+    .logo .star{
+        font-size: 15px;
+        margin: 0;
+        padding: 0%;
+    }
+    .togg {
+        margin-right: 0%;
+        width: 7%;
+        position: relative;
+        margin-top: 25px;
+        /* background-color: red; */
+    }
+    .togg-menu {
+        display: block;
+        float: right;
+        /* display: none; */
+    }
+    .menu-item {
+        float: right;
+    }
+    .nav {
+        /* display: inline-block; */
+        display: none;
+        margin-left: -98px;
+        margin-top: 10px;
+        position: absolute;
+        width: 120px;
+    }
+    .nav a {
+        display: flex;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px 0px;
+        padding-left: 15px;
+        background-color: #E08524;
+        color: black;
+        border: 1px solid black;
+    }
+    .togg:hover .nav {
+        display: block;
+    }
+    /* end of hero section */
+
+
+    /* start of main logo section */
+    .main-logo-image img{
+        height: 40px;
+     }
+    /* start of main logo section */
+
+     /* start of social icon section  */
+     .social-icons{
+        width: 60%;
+        display: inline-block;
+    }
+    .social-icons div{
+        padding-bottom: 5px;
+    }
+    .social-icons img{
+        height: 15px;
+        padding-right: 2px;
+    }
+    .social-icons a{
+        font-size: 15px;
+   }
+    /* end of social icon section  */
+}
+
+
+
+
+
+@media(max-width:320px){
+    /* start of hero section */
+    .container{
+        height: 80px;
+    }
+    .logo {
+        width: 60%;
+        margin-top: 25px;
+    }
+    .logo span{
+        font-size: 14px;
+    }
+    .logo .star{
+        font-size: 15px;
+        margin: 0;
+        padding: 0%;
+    }
+    .togg {
+        margin-right: 0%;
+        width: 7%;
+        position: relative;
+        /* background-color: red; */
+    }
+    .togg-menu {
+        display: block;
+        float: right;
+        /* display: none; */
+    }
+    .menu-item {
+        float: right;
+    }
+    .nav {
+        /* display: inline-block; */
+        display: none;
+        margin-left: -98px;
+        margin-top: 10px;
+        position: absolute;
+        width: 120px;
+    }
+    .nav a {
+        display: flex;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px 0px;
+        padding-left: 15px;
+        background-color: #E08524;
+        color: black;
+        border: 1px solid black;
+    }
+    .togg:hover .nav {
+        display: block;
+    }
+    /* end of hero section */
+
+
+    /* start of main logo section */
+    .main-logo-image img{
+        height: 40px;
+     }
+    /* start of main logo section */
+
+
+    /* start of social icon section  */
+    .social-icons{
+        width: 60%;
+        display: inline-block;
+    }
+    .social-icons div{
+        padding-bottom: 5px;
+    }
+    .social-icons img{
+        height: 15px;
+        padding-right: 2px;
+    }
+    .social-icons a{
+        font-size: 15px;
+   }
+    /* end of social icon section  */
+}

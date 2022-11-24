@@ -1,0 +1,269 @@
+/* start of universal selection */
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* start of hero section  */
+header{
+    background: black;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    height: 100px;
+}
+
+.menu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+    /* background: red; */
+    margin-top: 20px;
+}
+
+.logo .star{
+    font-size: 20px;
+    margin: 0 1px 0 1px;
+    color: #E08524;
+}
+.logo span{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+
+/* .menu-item {
+    float: right;
+} */
+
+.togg {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.togg-menu {
+    /* display: inline-block; */
+    display: none;
+    background: #E08524;
+}
+
+.togg-menu div {
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    margin: 4px;
+}
+
+.nav {
+    float: right;
+    padding: 15px 0px;
+    display: block;
+}
+
+.nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #E08524;
+}
+
+.nav a:active {
+    background-color: #E08524;
+    color: blue;
+}
+/* end of hero section */
+
+
+
+/* start of hero-bottom section */
+.hero-bottom{
+    color: white;
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    text-align: center;   
+}
+.hero-bottom h1{
+    width: 68%;
+    margin: auto;
+    font-size: 35px;
+}
+.hero-bottom p{
+    width: 55%;
+    margin: auto;
+    color: #D5DADA;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hero-bottom p span{
+    font-weight: 700;
+}
+.hero-bottom a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to bottom, #FD9500, #EB7200);
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.hero-bottom h6{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    color: #D5DADA;
+}
+/* end of hero section  */
+
+
+
+
+/* start of main box section  */
+.main-box{
+    background: #EEEEEE;
+    text-align: center;
+}
+
+/* start of main info section */
+.main-box h2{
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.main-box-info{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 80px;
+}
+.main-box-info .info-box{
+   width: 300px;
+   margin-right: 80px;
+   margin-bottom: 50px;
+}
+.main-box-info .info-box img{
+    height: 50px;
+ }
+ .main-box-info .info-box h3{
+    padding-top: 5px;
+    padding-bottom: 15px;
+ }
+ .main-box-info .info-box p{
+    font-size: 15px;
+ }
+ .main-box-info .info-box p a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #3E83B3;
+ }
+ .main-box-info .info-box p a:hover{
+    color: blue;
+ }
+ /* end of main info section */
+
+
+ /* start of main logo section */
+ .main-logo{
+    background: #DDDDDD;
+    margin: auto;
+    text-align: center;
+ }
+ .main-logo h2{
+    background: #DDDDDD;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ }
+ .main-logo-image{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+ }
+ .main-logo-image img{
+    height: 70px;
+ }
+ .main-logo-image p{
+    text-align: center;
+    margin: 0%;
+ }
+ .main-logo-image a{
+    text-decoration: none;
+    color: #3E83B3;
+    font-size: 13px;
+    margin: 0%;
+ }
+ .main-logo-image a:hover{
+    color: blue;
+   
+ }
+ /* end of main logo section */
+
+ /* start of social icon */
+ .social-icon-section{
+    background: #CCCCCC;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+ }
+ .social-icons{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    margin: auto;
+    padding: 40px 0px;
+    
+ }
+ .social-icons div{
+     margin: auto;
+ }
+ .social-icons img{
+     height: 15px;
+     text-align: center;
+     margin: auto;
+     padding-right: 5px;
+ }
+ .social-icons a{
+     text-decoration: none;
+     font-size: 15px;
+     color: #3E83B3;
+}
+.social-icons a:hover{
+    color: blue;
+}
+ /* end of social icon */
+
+ /* start of footer section  */
+ .footer{
+    width: 100%;
+    background: black;
+    text-align: center;
+    font-size: 13px;
+    padding: 50px 0px;
+ }
+ .footer p{
+    color: #DDDDDD;
+ }
+ .footer span{
+    color: #E08524;
+ }
+ .footer .first-footer-text{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+ }
+ .footer .second-footer-text{
+    width: 60%;
+    margin: auto;
+ }
+ /* end of footer section  */
